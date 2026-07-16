@@ -55,7 +55,10 @@
 .hero-content {
   position: relative;
   z-index: 5;
+  
+  max-width: 620px;
 }
+
 
 .hero-tag {
   display: inline-block;
@@ -142,7 +145,7 @@
 .hero-stats {
   display: flex;
   gap: 35px;
-  margin-top: 55px;
+  margin-top: 45px;
 }
 
 .hero-stats div {
@@ -439,13 +442,5 @@ grid-template-columns:1fr;
 padding:18px;
 
 }
-
-}
-.hero-content{
-
-display:grid;
-grid-template-columns:repeat(2,1fr);
-align-items:center;
-gap:80px;
 
 }
